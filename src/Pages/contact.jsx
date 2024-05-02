@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="contact-main flex justify-between">
+    <div className="contact-main flex justify-between pt-10">
       {/* Contact Left Div */}
       <div className="contact-left flex flex-col pt-4 p-12 w-1/3">
         <div className="w-4/5 mx-auto Contact-Details">
