@@ -39,7 +39,7 @@ const Contact = () => {
         </div>
       </div>
       <div className='contact-right flex flex-col p-6 md:p-14 pr-6 md:pr-20'>
-        <h1 className="text-3xl md:text-4xl font-bold text-black font-tt-wellingtons py-4 md:py-5">Suggestions</h1> 
+        <h1 className="text-3xl md:text-4xl font-bold text-black font-tt-wellingtons py-9 md:py-9">Suggestions</h1> 
         <form className="max-w-md md:max-w-sm mx-auto">
           <div className="mb-4">
             <input type="text" id="small-input" className="block w-full p-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 text-xs md:text-sm focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Name" />
