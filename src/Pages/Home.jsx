@@ -1,12 +1,13 @@
-import Contact from "./contact"
+import Features from "./Features"
+import Contact from "./Contact"
 export default function IndexPage()
 {
     return (
-        <>
-            <div>
-                <h1 className="text-4xl text-blue-700"></h1>
-                <Contact/>
-            </div>
-        </>
-    )
+      <>
+        <div>
+          {/* <Features /> */}
+          <Contact />
+        </div>
+      </>
+    );
 }
