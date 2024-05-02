@@ -1,5 +1,5 @@
 import React from 'react';
-import bgDownloadImage from '../images/download2.jpg';
+import bgDownloadImage from '../images/download2.png';
 import { FaGooglePlay, FaAppStore } from 'react-icons/fa';
 
 const Download = () => {
@@ -8,7 +8,7 @@ const Download = () => {
     return (
         
         <div className="flex pt-12 p-6  justify-center gap-24 pb-10 download-main">
-            <div className="w-1/3 relative pr-28 ">
+            <div className="w-2/5 relative  ">
                 <img
                     className="object-contain rotate-12 ml-auto" 
                     src={bgDownloadImage} 
@@ -16,7 +16,7 @@ const Download = () => {
                     layout={"fill"}
                 />    
             </div>
-            <div className='download-right flex flex-col w-1/3 p-6  pt-28 '>
+            <div className='download-right flex flex-col w-2/5 p-6  pt-28 '>
                
                 <h6 className="text-lg  text-black font-wellingtons font-bold  mb-4">Mobile Application Now Available !!!</h6>
                 <h4 className="text-2xl  text-black montserrat-alternates-extrabold-italic font-bold mb-12">Start Learning Today !!</h4>
