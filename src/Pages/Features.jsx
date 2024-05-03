@@ -5,10 +5,11 @@ import progressImage from '../images/progress.png';
 import lessonsImage from '../images/lessons.png';
 import leaderboardImage from '../images/leaderboard.png';
 import remainderImage from '../images/remainder.png';
+import backgroundImage from '../images/background.jpeg';
 
 const Features = () => {
   return (
-    <div className="grid grid-cols-3 row-span-3 gap-24 pt-12 pb-12 pl-12">
+    <div className="grid grid-cols-3 row-span-3 gap-24 pt-12 pb-12 pl-12" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <h1 className="mr-14 col-span-3 text-5xl text-black abril-fatface-regular font-bold text-center">Our Features</h1>
       <div className="flex flex-col items-center">
         <img className="object-contain w-50 pt-2" src={resourceImage} alt="Resource Image"/>
