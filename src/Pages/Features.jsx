@@ -16,23 +16,23 @@ const Features = () => {
       </div>
       <div className="flex flex-col items-center">
         <img className="object-contain w-48 pt-7" src={mentorImage} alt="Mentor Image"/>
-        <p className="pt-9 text-lg text-black abril-fatface-regular text-center">Mentor</p>
+        <p className="mt-8 text-lg text-black abril-fatface-regular text-center">Mentor</p>
       </div>
       <div className="flex flex-col items-center">
         <img className="object-contain w-48" src={progressImage} alt="Progress Image"/>
-        <p className="pt-5 text-lg text-black abril-fatface-regular text-center">Progress</p>
+        <p className="mt-4 text-lg text-black abril-fatface-regular text-center">Progress</p>
       </div>
       <div className="flex flex-col items-center">
         <img className="object-contain self-center w-49" src={lessonsImage} alt="Lessons Image"/>
-        <p className="pt-4 text-lg text-black abril-fatface-regular text-center">Lessons</p>
+        <p className="mt-4 text-lg text-black abril-fatface-regular text-center">Lessons</p>
       </div>
       <div className="flex flex-col items-center">
         <img className="object-contain self-center w-48" src={leaderboardImage} alt="Leaderboard Image"/>
-        <p className="pt-4 text-lg text-black abril-fatface-regular text-center">Leaderboard</p>
+        <p className="mt-4 text-lg text-black abril-fatface-regular text-center">Leaderboard</p>
       </div>
       <div className="flex flex-col items-center">
         <img className="object-contain self-center w-48" src={remainderImage} alt="Remainder Image"/>  
-        <p className="pt-4 text-lg text-black abril-fatface-regular text-center">Remainder</p>
+        <p className="mt-4 text-lg text-black abril-fatface-regular text-center">Remainder</p>
       </div>
     </div>
   );
