@@ -1,4 +1,5 @@
 import Homepage from "./homepage"
+import Education from "./education"
 import Download from "./download"
 import Contact from "./contact"
 import Features from "./Features"
@@ -12,6 +13,7 @@ export default function IndexPage()
             <div>
                 <Header/>
                 <Homepage/>
+                <Education/>
                 <Features/>
                 <Download/>
                 <Contact/>
